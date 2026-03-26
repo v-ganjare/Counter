@@ -1,0 +1,162 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🌈 Gradient Mode */
+.container.gradient {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #ffffff, #764ba2);
+}
+
+/* 🌙 Dark Mode */
+.container.dark {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e2f, #121212, #000000);
+}
+
+/* ⚪ Light Mode */
+.container.light {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+/* Card */
+.card {
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 350px;
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+}
+
+.title.neutral {
+  color: #333;
+}
+
+.title.positive {
+  color: #2ecc71;
+}
+
+.title.negative {
+  color: #e74c3c;
+}
+
+/* Row */
+.counter-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+/* Counter */
+.counter-box {
+  font-size: 60px;
+  min-width: 120px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.counter-box.positive {
+  background: #2ecc71;
+  color: white;
+}
+
+.counter-box.negative {
+  background: #e74c3c;
+  color: white;
+}
+
+.counter-box.neutral {
+  background: #ffffff;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.counter-box:hover {
+  transform: scale(1.05);
+}
+
+/* 🔥 3D Buttons */
+.side-btn {
+  font-size: 40px;
+  border: none;
+  background: #ffffff;
+  color: #333;
+  cursor: pointer;
+  padding: 10px 18px;
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #bbb, 0 8px 15px rgba(0,0,0,0.2);
+  transition: all 0.15s ease;
+}
+
+.side-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 #bbb, 0 12px 20px rgba(0,0,0,0.3);
+}
+
+.side-btn:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #bbb, 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Bottom buttons */
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Reset */
+.reset {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset:hover {
+  background: #e03a3a;
+  transform: scale(1.05);
+}
+
+/* Toggle */
+.toggle {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.toggle:hover {
+  background: black;
+  transform: scale(1.05);
+}
