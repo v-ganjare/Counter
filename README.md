@@ -66,7 +66,7 @@ npm run dev
 
 ## 📸 Preview
 
-<img width="400" alt="app preview" src="https://via.placeholder.com/400x250.png?text=Counter+App+Preview" />
+![App Screenshot](./image.png)
 
 ---
 
