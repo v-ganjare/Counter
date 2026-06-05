@@ -80,7 +80,6 @@ npm run dev
 ---
 
 ## 🙌 Author
-
-**Vaishnavii**
+**Vaishnavii G**
 
 
